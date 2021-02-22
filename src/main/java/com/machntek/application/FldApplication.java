@@ -1,4 +1,4 @@
-package com.machntek.fld;
+package com.machntek.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
