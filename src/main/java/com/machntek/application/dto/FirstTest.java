@@ -8,9 +8,9 @@ import com.machntek.fld.dto.FldBody;
 @Fld
 public class FirstTest implements FldBody {
 
-    @FldElement(order = 1, length = 10)
+    @FldElement(order = 1, size = 10)
     String test;
 
-    @FldElement(order = 2, length = 7)
+    @FldElement(order = 2, size = 7)
     int testNum;
 }

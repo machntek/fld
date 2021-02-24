@@ -9,5 +9,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface FldElement {
     int order();
-    int length();
+    int size() default 0;
+    //Type type() default Type.STRING;
+    //boolean masking() default false;
 }
